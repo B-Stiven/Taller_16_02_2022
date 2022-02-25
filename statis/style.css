@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+}
+
+.heder{
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 8px 0 0 0;
+}
+.botnone{
+    border: none;
+    font-size: 15px;background-color: #398bce00;
+    color: rgba(255, 255, 255, 0.726);
+}
+.bt{
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.726);
+    height: 25px;
+    width: 91px;
+    font-size: 15px;
+}
+.bt{
+    text-decoration: none;
+}
+.bt {
+    border-radius: 70px;
+    box-shadow: inset 50px -50px 100px #3a444b,
+            inset -50px 50px 100px #ffffff00;
+}
+.arriba{
+    display: flex;
+    background-color: rgb(78, 93, 104);
+    height: 600px;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+.lodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.fon{
+    align-items: flex-end;
+}
+.We{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.We h1{
+    font-size: 60px;
+}
+.botonReques p{font-size: 20px;}
+.botonSee{border-bottom: 1px solid white; border-bottom: none; font-size: 20px; list-style: none;}
+.botonSee a{ color: white; }
+.request{
+    background-color:#398cce;
+    border-radius:20px;
+    border:none;
+    color: white;
+    height:45px;
+    width:200px;
+    font-size:15px;
+    text-align: center; }
+.botonReques{
+    display: flex;
+    gap: 10px;
+}
+.medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+    margin: 98px; 
+}
+.logot img{
+    margin-top: 25px;
+}
+.logosM{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 45px;
+    padding: 45px;
+}
+.card p{color: rgb(164, 164, 164);}
+.card h2{color: rgb(75, 90, 101);}
+.card button{color: white;background-color: rgb(83, 155, 208);width: 116px;height: 40px;border-radius: 4px;border: none;}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.We strong{
+    color: rgb(118, 125, 130);
+}
+.Selected h2{color: rgb(76, 91, 102);}
+.Selected{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:40px 1fr ;
+    padding-left:200px ;
+}
+.img1{width: 224px; height: 164px; grid-row: 2;}
+.twi{
+    margin-left: 0;
+    margin-right: -16px;
+}
+.from{margin-top: 10px;}
+.from1{display: flex; }
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    margin-top: 100px;
+}
+.linea{border-top: rgb(76, 91, 102);}
+footer{
+    margin-left: 196px;
+    gap: 70%;
+    display: flex;
+}
+.fin{
+    color: black;
+}
+.fin strong{
+    color: rgb(60, 146, 208);
+}
+.fin p{
+    font-size: 17px;
+    color: rgb(199, 199, 199);
+}
+.fin h5{
+    color: rgb(218, 218, 218);
+}
+.p5 span{
+    color: black;
+}
+.fooc{color: rgb(200, 200, 200);}
+
+@keyframes agrandar{
+    From{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+@keyframes fon{
+    From{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.fon{
+    animation-name: fon;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.agrandar{
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@media (max-width: 414px){
+    .arriba{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+    /*heder*/
+    .logo{
+        width: 100px;
+        margin: 30px 0px 0px 30px;
+    }
+    .bt{
+        width: 50px;
+        font-size: 10px;
+    }
+    .heder{
+        margin:0 14px 0 0;
+        gap: 2px;
+    }
+    .botonesh{
+        display: flex;
+        gap: 25px;
+        margin-right: 40px;
+    }
+    .botnone{
+        width: 10px;
+        font-size: 10px;
+    }
+    .medio{
+        display: flex;
+        flex-direction: column;
+        margin: 55px;
+    }
+    .tel{   
+        width: 188px;
+    }
+    .We{
+        width: 414px;
+    }
+    .We h1{
+        font-size: 38px;
+    }
+    .We p{
+        padding-top: 8px; ;
+        font-size: 13px;   
+    }
+    .request{
+        width: 114px;
+        font-size: 13px;
+    }
+    .botonSee{
+        padding-top: 14px;
+        width: 124px;
+        font-size: 13px;
+    }
+
+    .logot img{
+        width: 45px;
+    }
+    .logosM{
+        padding: 0 21px 0 0;
+    }
+    .tarjetas{
+        padding: 0 21px  0 0;
+        margin: 25px 0 0 0;
+    }
+    .card{
+        font-size: 13px;
+    }
+    .card img{
+        width: 45px;
+    }
+    .Selected h2{
+        font-size: 11px;
+    }
+    .Selected h2 img{
+        width: 15px;
+        height: 15px;
+    }
+    .Selected img{
+        width: 84px;
+        height: 79px;
+    
+    }
+    .Selected{
+        margin-top: 25px;
+        padding: 0% 12px 0 0;
+    }
+    .fin{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .from{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .from1{
+        font-size: 20px;
+        padding: 2%;
+    }
+    .redu img{
+        width: 110px;
+    }
+    .twi{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        margin: 10%;
+        padding: 5%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px 0 37px;
+       
+    }
+}
+
+@media (max-width: 750px){
+
+    .We{
+        width: 750px;
+    }
+    .We h1{
+        font-size: 45px;
+    }
+    .Selected{
+        padding-left: 0%;
+    
+    }
+    .img1{
+        width: 150px;
+        height: 102px;
+        grid-row: 2;
+    }
+    .Selected h2{
+        font-size: 22px;
+    }
+    .fin{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-size: 14px;
+    }
+    .twi{
+        margin-top: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

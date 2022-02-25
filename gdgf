@@ -1,0 +1,85 @@
+<div class="l">
+                <div class="grande1">
+                    
+                </div>
+                <div class="grande2">
+                    
+                </div>
+            </div>
+    
+    
+    
+    
+    
+            <div class="grande3">
+                
+                
+            </div>
+        </section>
+    
+    
+        <footer>
+            <div>&copy;Christoffer Jensen 2013</div>
+           <div>
+                <img src="images/Facebook.png" alt="">
+                <img src="images/Twitter.png" alt="">
+                <img src="images/Linkedin.png" alt="">
+                <img src="images/Dribbble.png" alt="">
+            </div>
+        </footer>
+
+
+
+
+        .l{
+            display: flex;
+            flex-direction:column;
+        }
+        
+        .grande1{
+            display: flex;
+            flex-direction: row;
+            gap:40px;
+            margin:40px;
+        }
+        
+        
+        .grande2{
+            display: flex;
+            flex-direction: row;
+            gap:40px;
+            margin:40px;
+        }
+        
+        .img{
+            width:137px;
+            height:100px;
+        }
+        
+        .grande{
+            display: flex;
+            flex-direction: row;
+            gap: 31%;
+            align-items: center;
+        }
+        
+        .p5{
+            margin:20px;
+        }
+        .ti{
+            margin: 69px 0 0 202px;
+        }
+        
+        footer{
+            display: flex;
+            gap: 75%;
+        }
+        .grande1{
+            margin: 0  0 110px 194px;
+        }
+        .grande2{
+            margin: -35px  0 45px 187px;
+        }
+        .grande3{
+            margin: 0 0 0 0;
+        }
